@@ -89,13 +89,13 @@ Screenshots
 Below are the key screenshots for the app. The repository does not include the image files yet — place the screenshots at the paths shown or upload them and I can add them for you.
 
 - Dashboard (total spent):
-
-  ![Dashboard](app/screenshots/dashboard.png)
+<img width="459" height="961" alt="ss1" src="https://github.com/user-attachments/assets/b4b06f91-345a-46c2-accb-1654a64b444f" />
 
 - History (expenses list):
-
-  ![History](app/screenshots/history.png)
+<img width="472" height="953" alt="ss2" src="https://github.com/user-attachments/assets/0d667a66-0e45-4c09-8e0c-e1d1f4a5c7d8" />
 
 - Database Inspector (Room contents):
-
-  ![DB Inspector](app/screenshots/db_inspector.png)
+V1:
+<img width="1917" height="403" alt="room_project_v1" src="https://github.com/user-attachments/assets/73788977-3c22-4a13-849c-38bd011a4594" />
+V2:
+<img width="1919" height="410" alt="room_project_v2" src="https://github.com/user-attachments/assets/5785069c-4335-4108-b371-a1b135bb29b0" />
