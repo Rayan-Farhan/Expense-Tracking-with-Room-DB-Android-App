@@ -73,30 +73,34 @@ Build & Run
 - Open the project in Android Studio (recommended) and run on an emulator or device.
 - Gradle/Kotlin plugins and Room KSP are configured in the project build files (see `build.gradle.kts` files).
 
-Notes & Next Steps
-------------------
-- If you later add schema changes that Room cannot auto-migrate, implement an explicit `Migration` and pass it into `Room.databaseBuilder(...).addMigrations(...)`.
-- Consider adding unit/instrumented tests that exercise the DAO and migrations (Room provides helpers for in-memory DB testing).
-- For large datasets, consider pagination with Paging 3.
-
-Contact / Attribution
----------------------
-This README was generated to summarize the project structure and key Android concepts used in the `RoomProject` sample.
-
 Screenshots
 -----------
 
-Below are the key screenshots for the app. The repository does not include the image files yet — place the screenshots at the paths shown or upload them and I can add them for you.
+Below are the key screenshots for the app.
+
+---
 
 - Dashboard (total spent):
+
 <img width="459" height="961" alt="ss1" src="https://github.com/user-attachments/assets/b4b06f91-345a-46c2-accb-1654a64b444f" />
 
+---
+
 - History (expenses list):
+
 <img width="472" height="953" alt="ss2" src="https://github.com/user-attachments/assets/0d667a66-0e45-4c09-8e0c-e1d1f4a5c7d8" />
+
+---
 
 - Database contents (Migrations):
 
 V1:
+
 <img width="1917" height="403" alt="room_project_v1" src="https://github.com/user-attachments/assets/73788977-3c22-4a13-849c-38bd011a4594" />
+
+
 V2:
+
 <img width="1919" height="410" alt="room_project_v2" src="https://github.com/user-attachments/assets/5785069c-4335-4108-b371-a1b135bb29b0" />
+
+---
